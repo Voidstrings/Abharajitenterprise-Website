@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.7;
+    color: rgb(0, 0, 0);
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+
+
+/* Nav Bar */
+.top-nav {
+    background: rgb(247,7,121);
+    background: linear-gradient(90deg, rgba(247,7,121,1) 0%, rgba(0,3,93,0.4990371148459384) 100%);
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.top-nav p {        
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 16px;
+    color: #000000;
+}
+
+.top-nav i,
+.top-nav span {
+    vertical-align: middle;
+}
+
+.social-links a {
+    text-decoration: none;
+    width: 34px;
+    height: 34px;
+    background-color: rgb(14, 72, 126 0.5);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.social-links a:hover {
+    background-color: #ffffff;
+    color: #2e3d41;
+}
+
+
+/* Nvbar */
+
+
+/* Slider */
+section{
+    position: relative;
+   
+}
+
+
+
+.icon-hover:hover {
+    border-color: #3b71ca !important;
+    background-color: white !important;
+  }
+  
+  .icon-hover:hover i {
+    color: #3b71ca !important;
+  }
+
+
+
+
+
+
+  /* Product carosol */
+  .card-title {
+    color: #db0075;
+}
+.card-text {
+    color: #17E6E6;
+}
+.list-inline-item {
+    color: #ffd700
+}
+.price {
+    color: #9B1B30;
+}
+.btn-pink {
+    background-color: #fcb2b2 !important;
+}
+
+
+
+
+
