@@ -101,4 +101,5 @@ h3.parts{
 
 
 
-
+/* Model body */
+.modal-dialog{max-width: 1000px; }
