@@ -87,7 +87,7 @@ h3.parts {
 
 /* Product carosol */
 .card-title {
-    color: #7da1a3;
+    color: #ffffff;
 }
 
 .card-text {
@@ -110,4 +110,18 @@ h3.parts {
 
 
 /* Model body */
-.modal-dialog{max-width: 1000px; }
+.modal-dialog {
+    max-width: 1000px;
+}
+
+.card-body {
+    background: rgb(41, 37, 255);
+    background: #ee0979;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 5px;
+}
