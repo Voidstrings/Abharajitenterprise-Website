@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@900&display=swap');
 
 
 
@@ -8,6 +9,9 @@ body {
     color: rgb(0, 0, 0);
     margin-left: 0;
     margin-right: 0;
+    background: linear-gradient(90deg, rgba(247, 7, 121, 1) 0%, rgba(0, 3, 93, 0.4990371148459384) 100%);
+
+
 }
 
 
@@ -16,14 +20,14 @@ body {
 
 /* Nav Bar */
 .top-nav {
-    background: rgb(247,7,121);
-    background: linear-gradient(90deg, rgba(247,7,121,1) 0%, rgba(0,3,93,0.4990371148459384) 100%);
+    background: rgb(247, 7, 121);
+    background: linear-gradient(90deg, rgba(247, 7, 121, 1) 0%, rgba(0, 3, 93, 0.4990371148459384) 100%);
     padding-top: 5px;
     padding-bottom: 5px;
 
 }
 
-.top-nav p {        
+.top-nav p {
     margin-bottom: 0;
     display: inline-block;
     margin-right: 16px;
@@ -58,9 +62,9 @@ body {
 
 
 /* Slider */
-section{
+section {
     position: relative;
-   
+
 }
 
 
@@ -68,32 +72,36 @@ section{
 .icon-hover:hover {
     border-color: #3b71ca !important;
     background-color: white !important;
-  }
-  
-  .icon-hover:hover i {
-    color: #3b71ca !important;
-  }
+}
 
-h3.parts{
+.icon-hover:hover i {
+    color: #3b71ca !important;
+}
+
+h3.parts {
     margin-right: 500px;
 }
 
 
 
 
-  /* Product carosol */
-  .card-title {
-    color: #db0075;
+/* Product carosol */
+.card-title {
+    color: #ffffff;
 }
+
 .card-text {
     color: #17E6E6;
 }
+
 .list-inline-item {
     color: #ffd700
 }
+
 .price {
     color: #9B1B30;
 }
+
 .btn-pink {
     background-color: #fcb2b2 !important;
 }
@@ -102,10 +110,25 @@ h3.parts{
 
 
 /* Model body */
-.modal-dialog{max-width: 1000px; }
+.modal-dialog {
+    max-width: 1000px;
+}
 
 
-.backgroundcolor{
+.backgroundcolor {
     background-color: #E8F0FE;
 }
 
+.brand {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900px;
+}
+
+.card-body {
+    background: rgb(41, 37, 255);
+    background: #ee0979;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 5px;
+}
